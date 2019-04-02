@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #222;
+    font-family: 'Lato', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+header > video, header > img {
+    width: 100%;
+}
+
+header > .overlay {
+    position: absolute;
+    background: rgba(23, 21, 39, 0.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header > .overlay h1 {
+    font-size: 60pt;
+    font-family: 'Lobster', sans-serif;
+    text-shadow: 0 0 5pt rgb(78, 2, 2); 
+}
+
+.landing > .overlay h1 {
+    color: rgb(190, 0, 0);
+    font-size: 85pt;
+    line-height: 1;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+.landing > .overlay small {
+    color: white;
+    font-size: 20pt;
+    font-family: 'Lobster', cursive;
+}
+
+header > .nav-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+nav > ul {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 8pt 8pt;
+    flex-basis: 0;
+    box-sizing: border-box;
+}
+
+nav > ul > li.divider {
+    visibility: hidden;
+    flex-basis: 100%;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    padding: 4pt;
+    box-sizing: border-box;
+}
+nav > ul > li > a:visited {
+    color: white;
+}
+
+nav > ul > li > a:hover {
+    background: white;
+    color: #222;
+}
+
+footer {
+    background: #222;
+    border-top: 5pt solid #444;
+    color: #eee;
+    font-size: 10pt;
+    margin-bottom: 40pt;
+}
+
+footer h4 {
+    text-align: center;
+}
+
+footer .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .row > .col {
+    margin: 0 8pt;
+}
+
+footer a, footer a:visited {
+    color: rgb(53, 167, 212);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    background: #eee;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 16pt 0;
+    color: #222;
+}
+
+.container {
+    max-width: 500pt;
+    margin: 0 auto;
+}

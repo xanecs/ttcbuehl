@@ -1,0 +1,4 @@
+baseURL = "https://www.ttc-buehl.de/"
+languageCode = "de-DE"
+title = "TurnierTanzClub Bühl"
+theme = "ttc"

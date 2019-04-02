@@ -1,0 +1,11 @@
+<header class="post">
+    <img src="{{ with .Params.Thumbnail }}{{ . }}{{ end }}">
+    <div class="overlay">
+        <div class="title">
+            <h1>{{ .Title }}</h1>
+        </div>
+    </div>
+    <div class="nav-container"> 
+        {{- partial "nav.html" . -}}
+    </div>
+</header>

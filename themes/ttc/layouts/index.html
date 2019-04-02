@@ -1,0 +1,9 @@
+{{ define "header" }}
+    {{- partial "header_video.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+<div class="container">
+    {{ .Content }}
+</div>
+{{ end }}
