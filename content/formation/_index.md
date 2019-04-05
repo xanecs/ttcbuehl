@@ -1,6 +1,9 @@
 ---
 Title: "Unsere Lateinformation"
 Thumbnail: "https://placekitten.com/g/1920/1080"
+menu:
+    main_left:
+        name: Formation
 ---
 # Formation
 

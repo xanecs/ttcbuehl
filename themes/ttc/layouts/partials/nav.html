@@ -1,11 +1,12 @@
 <nav>
     <ul>
-        <li><a href="/"><span class="la la-lg la-home"></span></a></li>
-        <li><a href="/formation">Formation</a></li>
-        <li><a href="/">Einzeltanz</a></li>
-        <li><a href="/">Verein</a></li>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main_left }}
+        <li><a class="{{ if $currentPage.IsMenuCurrent "main_left" . }}active{{ end }}" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
+        {{ end }}
         <li class="divider"></li>
-        <li><a href="/"><span class="la la-lg la-facebook"></span></a></li>
-        <li><a href="/"><span class="la la-lg la-instagram"></span></a></li>
+        {{ range .Site.Menus.main_right }}
+        <li><a class="{{ if $currentPage.IsMenuCurrent "main_right" . }}active{{ end }}" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
+        {{ end }}
     </ul>
 </nav>

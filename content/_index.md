@@ -1,6 +1,11 @@
 ---
-
+menu:
+    main_left:
+        pre: '<span class="la la-home"></span>'
+        name: ''
 ---
-# Hallo Welt!
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+# Aktuelles
+{{< news-gallery >}}
+{{< facebook "https://www.facebook.com/TTCBuehl/posts/634019940385309" >}}
+{{< facebook "https://www.facebook.com/TTCBuehl/posts/2837819279776628" >}}
+{{< /news-gallery >}}
