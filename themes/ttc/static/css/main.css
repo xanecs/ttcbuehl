@@ -152,6 +152,30 @@ footer a:hover {
     overflow: hidden;
     padding: 16pt 0;
     color: #222;
+    line-height: 1.4;
+}
+
+.content blockquote {
+    margin-left: 0;
+    color: rgb(99, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content blockquote::before {
+    content: '\00bb';
+    font-size: 24pt;
+    margin-right: 8pt;
+    margin-top: -3pt;
+    
+}
+
+.content blockquote::after {
+    content: '\00ab';
+    font-size: 24pt;
+    margin-top: -3pt;
+    margin-left: 8pt;
 }
 
 .content.red {
@@ -225,4 +249,35 @@ footer a:hover {
 
 .event-preview .info h4 {
     margin: 4pt 0;
+}
+
+.panel {
+    margin: 24pt 0 16pt 0;
+    background: rgb(99, 0, 0);
+    color: #eee;
+    border: 2pt solid rgb(99, 0, 0);
+    border-radius: 4pt;
+}
+
+.panel > .panel-header {
+    color: rgb(99, 0, 0);
+    background: #eee;
+    border-radius: 3pt 3pt 0 0;
+    padding: 4pt;
+}
+
+.panel > .panel-header h4 {
+    margin: 0;
+}
+
+.panel > .panel-body {
+    padding: 4pt;
+}
+
+.panel > .panel-body p:first-child {
+    margin-top: 0;
+}
+
+.panel > .panel-body p:last-child {
+    margin-bottom: 0;
 }

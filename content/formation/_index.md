@@ -5,6 +5,13 @@ menu:
     main_left:
         name: Formation
 ---
-# Formation
+# Lateinformation des TTC Bühl
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Teamgeist, Ehrgeiz und Spaß am Tanzen?  
+Genau darum geht es bei der Lateinformation des TTC Bühls. 
+
+Das Tanzen in der Formation erfordert, im Gegensatz zum Tanzen als einzelnes Paar, neue Fähigkeiten. Neben Technik und tänzerischem Ausdruck, kommt es auf Synchronität und gemeinsam gestellte Bilder an. Dies zu meistern erfordert Fleiß und Ehrgeiz und vor allem ein funktionierendes Team.
+
+> Ein Team ist stets so stark wie sein schwächstes Mitglied.
+
+Nach diesem Motto wird gemeinsam dafür trainiert, die Teamleistung zu steigern und sich individuell sowie im Team weiter zu entwickeln.

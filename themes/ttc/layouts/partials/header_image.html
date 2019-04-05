@@ -1,5 +1,5 @@
 <header class="post">
-    <img src="{{if .Params.Thumbnail}}{{ with .Params.Thumbnail }}{{ . }}{{ end }}{{else}}http://placekitten.com/1920/800{{end}}">
+    <img src="{{if .Resources.GetMatch "header.*"}}{{ (.Resources.GetMatch "header.*").RelPermalink }}{{else}}http://placekitten.com/1920/800{{end}}">
     <div class="overlay">
         <div class="title">
             <h1>{{ .Title }}</h1>
